@@ -22,6 +22,10 @@ class Dog
     puts self.all.map {|dog| dog.name}
   end
   
+  def self.clear_all
+    @@dog_names.clear 
+  end
+  
 end
 
 apple = Dog.new("Apple")
