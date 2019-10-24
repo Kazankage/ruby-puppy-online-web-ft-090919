@@ -14,7 +14,7 @@ class Dog
   end
   
   def self.all 
-    @dog_names
+    @@dog_names
   end
   
   def self.print_all
@@ -26,4 +26,4 @@ end
 apple = Dog.new("Apple")
 triangle = Dog.new("triangle")
 
-print Dog.all
+Dog.all
