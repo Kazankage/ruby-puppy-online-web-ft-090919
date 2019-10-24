@@ -25,5 +25,5 @@ end
 
 apple = Dog.new("Apple")
 triangle = Dog.new("triangle")
-Dog.all
+print Dog.all
 #Dog.print_all
