@@ -1,5 +1,7 @@
 class Dog 
   
+  attr_accessor :name
+  
   @@dog_names = []
   
   def save
@@ -20,3 +22,6 @@ class Dog
   end
   
 end
+
+apple = Dog.new("Apple")
+triangle = Dog.new("triangle")
