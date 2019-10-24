@@ -8,7 +8,7 @@ class Dog
     @@dog_names << self
   end
   
-  def see 
+  def self.see 
     @@dog_names
   end
   
