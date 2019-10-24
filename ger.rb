@@ -34,4 +34,5 @@ triangle = Dog.new("triangle")
 Dog.print_all
 Dog.clear_all
 puts Dog.all
+puts
 Dog.print_all
