@@ -18,7 +18,7 @@ class Dog
   end
   
   def self.print_all
-    @@dog_names.each {|name| puts @@dog_names}
+    @@dog_names.each {|name| puts }
   end
   
 end
@@ -27,3 +27,4 @@ apple = Dog.new("Apple")
 triangle = Dog.new("triangle")
 
 Dog.print_all
+@@dog_names
