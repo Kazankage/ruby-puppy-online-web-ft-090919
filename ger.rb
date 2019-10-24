@@ -27,4 +27,4 @@ end
 apple = Dog.new("Apple")
 triangle = Dog.new("triangle")
 
-print Dog.see
+Dog.print_all
