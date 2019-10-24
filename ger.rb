@@ -8,6 +8,10 @@ class Dog
     @@dog_names << self
   end
   
+  def see 
+    @@dog_names
+  end
+  
   def initialize(name)
     @name = name
     save
@@ -26,4 +30,3 @@ end
 apple = Dog.new("Apple")
 triangle = Dog.new("triangle")
 
-print @@dog_names
