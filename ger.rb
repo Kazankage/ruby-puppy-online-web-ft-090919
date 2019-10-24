@@ -27,4 +27,3 @@ apple = Dog.new("Apple")
 triangle = Dog.new("triangle")
 
 Dog.print_all
-@@dog_names
