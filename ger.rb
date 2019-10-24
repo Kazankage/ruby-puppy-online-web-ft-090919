@@ -35,4 +35,4 @@ Dog.print_all
 Dog.clear_all
 puts Dog.all
 puts
-print Dog.all
+puts Dog.all
