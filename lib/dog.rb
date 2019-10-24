@@ -20,3 +20,5 @@ class Dog
    @@all.clear
   end
 end
+
+Dog.print_all
