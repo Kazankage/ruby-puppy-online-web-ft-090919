@@ -32,4 +32,4 @@ apple = Dog.new("Apple")
 triangle = Dog.new("triangle")
 
 Dog.print_all
-print Dog.all
+puts Dog.all
