@@ -8,9 +8,6 @@ class Dog
     @@dog_names << self
   end
   
-  def self.see 
-    @@dog_names
-  end
   
   def initialize(name)
     @name = name
