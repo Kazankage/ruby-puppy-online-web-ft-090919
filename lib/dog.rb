@@ -21,4 +21,4 @@ class Dog
   end
 end
 
-Dog.all
+puts Dog.all
